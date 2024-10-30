@@ -1,5 +1,5 @@
 # Melanoma Detection using CNNs in TensorFlow
-![Image Description](./image.png)
+![Image Description](./Melanoma.jpg)
 
 
 # Overview
