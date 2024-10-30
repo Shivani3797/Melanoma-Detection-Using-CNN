@@ -1,5 +1,6 @@
 # Melanoma Detection using CNNs in TensorFlow
-<!-- replace with image link once hosted -->
+![Image Description](./image.png)
+
 
 # Overview
 This project aims to develop a multiclass classification model using a custom Convolutional Neural Network (CNN) in TensorFlow to aid in early detection of melanoma, a serious form of skin cancer. Melanoma accounts for a large portion of skin cancer-related deaths, and early detection can significantly improve survival rates. The model evaluates skin lesion images, assisting dermatologists by flagging potential melanoma cases, ultimately supporting faster, more accurate diagnoses.
