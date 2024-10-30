@@ -12,40 +12,55 @@ Skin cancer, particularly melanoma, poses severe health risks, accounting for ar
 The dataset includes 2,357 images sourced from the International Skin Imaging Collaboration (ISIC) and spans nine categories of skin conditions:
 
 Actinic keratosis
+
 Basal cell carcinoma
+
 Dermatofibroma
+
 Melanoma
+
 Nevus
+
 Pigmented benign keratosis
+
 Seborrheic keratosis
+
 Squamous cell carcinoma
+
 Vascular lesion
 
 # Project Pipeline
 ## 1. Data Preparation
-Define paths for training and testing sets.
-Create training and validation datasets with a batch size of 32, resizing images to 180x180 pixels.
+  Define paths for training and testing sets.
+  
+  Create training and validation datasets with a batch size of 32, resizing images to 180x180 pixels.
 
 ## 2. Data Visualization
-Visualize samples from each class to understand the distribution and characteristics of the images.
+  Visualize samples from each class to understand the distribution and characteristics of the images.
 
 ## 3. Model Building & Training
-Build a CNN model tailored to accurately identify all nine classes.
-Apply normalization to rescale pixel values.
-Choose suitable optimizer and loss functions, and train the model for 20 epochs.
-Evaluate performance, monitoring for overfitting and underfitting.
+  Build a CNN model tailored to accurately identify all nine classes.
+  
+  Apply normalization to rescale pixel values.
+  
+  Choose suitable optimizer and loss functions, and train the model for 20 epochs.
+  
+  Evaluate performance, monitoring for overfitting and underfitting.
 
 ## 4. Model Training with Data Augmentation
-Implement data augmentation strategies to improve robustness.
-Retrain the model on augmented data, assessing improvements after 20 epochs.
+  Implement data augmentation strategies to improve robustness.
+  
+  Retrain the model on augmented data, assessing improvements after 20 epochs.
 
 ## 5. Class Distribution Analysis
-Examine the class distribution to identify imbalances.
-Address imbalances with the Augmentor library.
+  Examine the class distribution to identify imbalances.
+  
+  Address imbalances with the Augmentor library.
 
 ## 6. Final Model Training
-Rebuild the model using the balanced dataset.
-Train for an extended period (up to 30 epochs) to refine accuracy.
+  Rebuild the model using the balanced dataset.
+  
+  Train for an extended period (up to 30 epochs) to refine accuracy.
 
 # Conclusion
 This project demonstrates the use of AI and deep learning in early melanoma detection, potentially supporting medical professionals in making faster, more accurate diagnoses.
